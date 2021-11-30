@@ -12,7 +12,6 @@
     }
     .footer .box-container {
         display: flex;
-        justify-content: center;
     }
 }
 
@@ -75,13 +74,34 @@
     .footer .box-container .box {
         margin: 0 3rem;
     }
+    .coffee-menu-box {
+        display: block;
+    }
 }
 
 @media (max-width:450px) {
     html {
         font-size: 50%;
     }
+    .header .header-1 .search-form {
+        padding-right: 5rem;
+    }
     .footer .box-container {
         display: grid;
+    }
+    .coffee-menu-box {
+        margin-top: 10px;
+        width: 98%;
+    }
+    .btn-order {
+        margin-bottom: 7px;
+    }
+    .coffee-menu-img {
+        width: 50%;
+        float: none;
+        margin-top: 0;
+    }
+    .coffee-menu-img {
+        margin-left: 70px;
     }
 }

@@ -4,16 +4,6 @@ document.querySelector('#search-btn').onclick = () => {
     searchForm.classList.toggle('active');
 }
 
-let loginForm = document.querySelector('.login-form-container');
-
-document.querySelector('#login-btn').onclick = () => {
-    loginForm.classList.toggle('active');
-}
-
-document.querySelector('#close-login-btn').onclick = () => {
-    loginForm.classList.remove('active');
-}
-
 window.onscroll = () => {
 
     searchForm.classList.remove('active');
@@ -43,7 +33,7 @@ function loader() {
 }
 
 function fadeOut() {
-    setTimeout(loader, 2000);
+    setTimeout(loader, 1000);
 }
 
 var swiper = new Swiper(".coffee-slider", {
